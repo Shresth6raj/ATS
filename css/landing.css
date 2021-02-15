@@ -147,7 +147,7 @@ th
 }
 
 select{
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0.3);
   border-color: #27A5EF;
   color: white;
 }
