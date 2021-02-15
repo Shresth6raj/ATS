@@ -1,0 +1,19 @@
+h1{
+	color: white;
+	font-family: times new roman;
+	font-size: 10px;
+}
+
+.center{
+	margin: 20px;
+}
+
+img{
+	height: 500px;
+	margin: 50px;
+	margin-left: 100px;
+}
+
+.col-md-6{
+	color: white;
+}

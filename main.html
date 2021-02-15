@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>OST Placement Search Private Limited</title>
+    <link href="https://fonts.googleapis.com/css?family=Lemon&display=swap" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css?family=Lemon&display=swap');</style>
+    <script src="js/landing.js"></script>   
+
+</head>
+<link rel="stylesheet" type="text/css" href="css/landing.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<body style="background-image: url(pics/bg1.jpg);background-size: cover;background-repeat: repeat; background-position: center;">
+
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top" style="padding-top: 10px;padding-bottom: 0;">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><img src="pics/applicant.png" style="height: 37px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+            class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="padding-top: 0;padding-bottom: 0;">HOME</a><a class="nav-link" href="#" style="padding-top: 0;"></a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#jobs" style="padding-top: 0;padding-bottom: 0;">JOBS</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#positions" style="padding-top: 0;padding-bottom: 0;">POSITIONS</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#applicants" style="padding-top: 0;padding-bottom: 0;">APPLICANTS</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="top">
+    <center><img class="logo" width="250" width="auto" src="pics/applicant.png">
+      <p>
+        <font style="font-size:43px;color:white"><b>OST PLACEMENT SEARCH</b><font style="color:#27A5EF"><b> PRIVATE LIMITED</b> </font>
+            <p> 
+                <font style=" color:#27A5EF"><b>&nbsp 2 &nbsp 0 &nbsp</b>
+                    <font style=" color:white"><b>2 &nbsp 1 &nbsp </b> </font> </font> 
+                </font>
+                <br>
+                <font  style="font-size:25px ;color:white">Design |
+                <font style=" color:#27A5EF">Develop</font> | Deploy</font>
+           </p>
+       </p> 
+   </div>
+
+   <hr> 
+   
+   <div class="row" id="jobs">
+    <div class="col-md-6">
+      <p><span style=" color:#27A5EF">JOBS</span> AVAILABLE</p>
+      <form method="POST">
+        <input type="text" name="job" placeholder="Add jobs.." id="job" class="job">
+        <input type="button" onclick="add()" value="ADD" class="btn btn-primary">
+      </form>
+    </div>
+     
+     <div class="col-md-6">
+       <p id="list"></p>
+     </div>
+   </div>
+   
+   <hr> 
+   <center class="status" style="overflow-x:auto;">
+     <table>
+       <tr>
+         <td><span style=" color:#27A5EF">JOBS</span></td>
+         <td><span style=" color:#27A5EF">STATUS</span></td>
+       </tr>
+       <tr style="font-size: 20px">
+         <td>Web developer</td>
+         <td><form><select><option>Active</option><option>Dormant</option><option>Closed</option></select></form></td>
+       </tr>
+       <tr style="font-size: 20px">
+         <td>App developer</td>
+         <td><form><select><option>Active</option><option>Dormant</option><option>Closed</option></select></form><td>
+       </tr>
+       <tr style="font-size: 20px">
+         <td>UI/UX Designer</td>
+         <td><form><select><option>Active</option><option>Dormant</option><option>Closed</option></select></form><td>
+       </tr>
+       <tr style="font-size: 20px">
+         <td>Manager of Data Services</td>
+         <td><form><select><option>Active</option><option>Dormant</option><option>Closed</option></select></form></td>
+       </tr>
+       <tr style="font-size: 20px">
+         <td>Software developer</td>
+         <td><form><select><option>Active</option><option>Dormant</option><option>Closed</option></select></form></td>
+       </tr>
+     </table>
+   </center>
+
+   <hr> 
+   <div id="positions">
+     <p style=" color:#27A5EF">POSITIONS</p>
+     <div class="row">
+         <div class="col-md-2 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p style="margin-top: 50px">Web Developer</p>
+            </div>
+            <div class="flip-card-back">
+              <h4 style="margin-top: 10px">No of openings</h4><br> 
+              <h5>11</h5> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p style="margin-top: 50px">Project Head</p>
+            </div>
+            <div class="flip-card-back">
+              <h4 style="margin-top: 10px">No of openings</h4><br> 
+              <h5>4</h5> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p style="margin-top: 50px">App Developer</p>
+            </div>
+            <div class="flip-card-back">
+              <h4 style="margin-top: 10px">No of openings</h4><br> 
+              <h5>5</h5> 
+            </div>
+          </div>
+        </div><div class="col-md-2 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p style="margin-top: 50px">UI/UX Designer</p>
+            </div>
+            <div class="flip-card-back">
+              <h4 style="margin-top: 10px">No of openings</h4><br> 
+              <h5>18</h5> 
+            </div>
+          </div>
+        </div><div class="col-md-2 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p style="margin-top: 50px">Data Manager</p>
+            </div>
+            <div class="flip-card-back">
+              <h4 style="margin-top: 10px">No of openings</h4><br> 
+              <h5>8</h5> 
+            </div>
+          </div>
+        </div><div class="col-md-2 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p style="margin-top: 50px">Software Developer</p>
+            </div>
+            <div class="flip-card-back">
+              <h4 style="margin-top: 10px">No of openings</h4><br> 
+              <h5>14</h5> 
+            </div>
+          </div>
+        </div>
+     </div>
+   </div>
+
+   <hr> 
+   <div id="applicants" style="overflow-x:auto;">
+    <caption><span style=" color:#27A5EF">LIST OF APPLICANTS</span></caption>
+     <table>
+       <tr>
+         <th>Candidate</th>
+         <th>CV</th>
+         <th>Salary</th>
+         <th>Location</th>
+         <th>Contact No</th>
+       </tr>
+       <tr>
+         <td>Mohan Lal</td>
+         <td><a href="cv.html">CV</a></td>
+         <td>Rs. 50,000</td>
+         <td>Jharkhand</td>
+         <td>9856325874</td>
+       </tr>
+       <tr>
+         <td>Ram Verma</td>
+         <td><a href="cv.html">CV</a></td>
+         <td>Rs. 52,000</td>
+         <td>Bihar</td>
+         <td>8754125963</td>
+       </tr>
+       <tr>
+         <td>Shyam Singh</td>
+         <td><a href="cv.html">CV</a></td>
+         <td>Rs. 45,000</td>
+         <td>Delhi</td>
+         <td>8521456987</td>
+       </tr>
+       <tr>
+         <td>Yash Kumar</td>
+         <td><a href="cv.html">CV</a></td>
+         <td>Rs. 32,000</td>
+         <td>Rajasthan</td>
+         <td>9854563258</td>
+       </tr>
+       <tr>
+         <td>Abhay Reddy</td>
+         <td><a href="cv.html">CV</a></td>
+         <td>Rs. 63,000</td>
+         <td>Karnataka</td>
+         <td>9632510214</td>
+       </tr>
+     </table>
+   </div>
+   
+<button class="open-button" onclick="openForm()"><img src="pics/chat.png" style="height: 57px;"></button>
+
+<div class="chat-popup" id="myForm">
+  <form  class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
